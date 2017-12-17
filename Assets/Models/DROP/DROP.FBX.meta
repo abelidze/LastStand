@@ -1,0 +1,386 @@
+fileFormatVersion: 2
+guid: d10616b72f07d18488a0ca4e3ce7dbb8
+timeCreated: 1442756349
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: BASE
+    100002: BASE_UPPER
+    100004: DOOR1
+    100006: DOOR2
+    100008: DOOR3
+    100010: DOOR4
+    100012: DOOR5
+    100014: //RootNode
+    100016: EDGE1
+    100018: EDGE2
+    100020: EDGE3
+    100022: EDGE4
+    100024: EDGE5
+    400000: BASE
+    400002: BASE_UPPER
+    400004: DOOR1
+    400006: DOOR2
+    400008: DOOR3
+    400010: DOOR4
+    400012: DOOR5
+    400014: //RootNode
+    400016: EDGE1
+    400018: EDGE2
+    400020: EDGE3
+    400022: EDGE4
+    400024: EDGE5
+    2300000: BASE
+    2300002: BASE_UPPER
+    2300004: DOOR1
+    2300006: DOOR2
+    2300008: DOOR3
+    2300010: DOOR4
+    2300012: DOOR5
+    2300014: EDGE1
+    2300016: EDGE2
+    2300018: EDGE3
+    2300020: EDGE4
+    2300022: EDGE5
+    3300000: BASE
+    3300002: BASE_UPPER
+    3300004: DOOR1
+    3300006: DOOR2
+    3300008: DOOR3
+    3300010: DOOR4
+    3300012: DOOR5
+    3300014: EDGE1
+    3300016: EDGE2
+    3300018: EDGE3
+    3300020: EDGE4
+    3300022: EDGE5
+    4300000: BASE
+    4300002: EDGE4
+    4300004: BASE_UPPER
+    4300006: DOOR5
+    7400000: Idle
+    7400002: Open
+    7400004: Fade
+    7400006: Stand
+    7400008: Close
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 1
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BASE
+        weight: 1
+      - path: DOOR1
+        weight: 1
+      - path: DOOR2
+        weight: 1
+      - path: DOOR3
+        weight: 1
+      - path: DOOR4
+        weight: 1
+      - path: DOOR5
+        weight: 1
+      - path: EDGE1
+        weight: 1
+      - path: EDGE1/BASE_UPPER
+        weight: 1
+      - path: EDGE2
+        weight: 1
+      - path: EDGE3
+        weight: 1
+      - path: EDGE4
+        weight: 1
+      - path: EDGE5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Open
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 75
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BASE
+        weight: 1
+      - path: DOOR1
+        weight: 1
+      - path: DOOR2
+        weight: 1
+      - path: DOOR3
+        weight: 1
+      - path: DOOR4
+        weight: 1
+      - path: DOOR5
+        weight: 1
+      - path: EDGE1
+        weight: 1
+      - path: EDGE1/BASE_UPPER
+        weight: 1
+      - path: EDGE2
+        weight: 1
+      - path: EDGE3
+        weight: 1
+      - path: EDGE4
+        weight: 1
+      - path: EDGE5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Fade
+      takeName: Take 001
+      firstFrame: 76
+      lastFrame: 100
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BASE
+        weight: 1
+      - path: DOOR1
+        weight: 1
+      - path: DOOR2
+        weight: 1
+      - path: DOOR3
+        weight: 1
+      - path: DOOR4
+        weight: 1
+      - path: DOOR5
+        weight: 1
+      - path: EDGE1
+        weight: 1
+      - path: EDGE1/BASE_UPPER
+        weight: 1
+      - path: EDGE2
+        weight: 1
+      - path: EDGE3
+        weight: 1
+      - path: EDGE4
+        weight: 1
+      - path: EDGE5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Stand
+      takeName: Take 001
+      firstFrame: 102
+      lastFrame: 103
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BASE
+        weight: 1
+      - path: DOOR1
+        weight: 1
+      - path: DOOR2
+        weight: 1
+      - path: DOOR3
+        weight: 1
+      - path: DOOR4
+        weight: 1
+      - path: DOOR5
+        weight: 1
+      - path: EDGE1
+        weight: 1
+      - path: EDGE1/BASE_UPPER
+        weight: 1
+      - path: EDGE2
+        weight: 1
+      - path: EDGE3
+        weight: 1
+      - path: EDGE4
+        weight: 1
+      - path: EDGE5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Close
+      takeName: Take 001
+      firstFrame: 104
+      lastFrame: 150
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BASE
+        weight: 1
+      - path: DOOR1
+        weight: 1
+      - path: DOOR2
+        weight: 1
+      - path: DOOR3
+        weight: 1
+      - path: DOOR4
+        weight: 1
+      - path: DOOR5
+        weight: 1
+      - path: EDGE1
+        weight: 1
+      - path: EDGE1/BASE_UPPER
+        weight: 1
+      - path: EDGE2
+        weight: 1
+      - path: EDGE3
+        weight: 1
+      - path: EDGE4
+        weight: 1
+      - path: EDGE5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
